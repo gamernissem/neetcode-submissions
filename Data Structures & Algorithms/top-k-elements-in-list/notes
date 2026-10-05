@@ -1,0 +1,5 @@
+Solutions:
+
+Submission 0: Using a bucket system track the number of times each element appears, sort the bucket and take the highest k amount.
+
+Submission 1: Thought about a naive approach just tracking the number of instances as we go iterate across the array, from there came to the idea of using a min heap to only hold onto the 2 largest keys at any given time. This is avoid finding the smallest key in the array multiple times.
